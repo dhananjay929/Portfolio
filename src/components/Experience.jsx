@@ -6,16 +6,20 @@ import mongo  from  "../assets/pngwing.com.png";
 import react  from  "../assets/science.png";
 import github  from  "../assets/github.png";
 import bootstrap  from  "../assets/bootstrap.png";
+import nodejs  from  "../assets/node.png";
+import express  from  "../assets/express.png";
 
 const Experience = () => {
   const techs=[
     {id:1,src:html,title:"HTML",style:"shadow-orange-500"},
     {id:2,src:css,title:"CSS",style:"shadow-blue-500"},
     {id:3,src:js,title:"JavaScript",style:"shadow-yellow-500"},
-    {id:4,src:bootstrap,title:"Bootstrap",style:"shadow-purple-500"},
-    {id:5,src:react,title:"ReactJS",style:"shadow-blue-600"},
-    {id:6,src:mongo,title:"MongoDB",style:"shadow-green-500"},
-    {id:7,src:github,title:"GitHub",style:"shadow-gray-400"}
+    {id:4,src:mongo,title:"MongoDB (M)",style:"shadow-green-500"},
+    {id:5,src:express,title:"ExpressJS (E)",style:"shadow-green-500"},
+    {id:6,src:react,title:"ReactJS (R)",style:"shadow-blue-600"},
+    {id:7,src:nodejs,title:"NodeJS (N)",style:"shadow-green-500"},
+    {id:8,src:bootstrap,title:"Bootstrap",style:"shadow-purple-500"},
+    {id:9,src:github,title:"GitHub",style:"shadow-gray-400"}
   ]
   return (
     <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full min-h-screen'>
