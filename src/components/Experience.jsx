@@ -3,11 +3,11 @@ import html  from  "../assets/html.png";
 import css  from  "../assets/css-3.png";
 import js  from  "../assets/js.png";
 import mongo  from  "../assets/pngwing.com.png";
-import react  from  "../assets/science.png";
-import github  from  "../assets/github.png";
-import bootstrap  from  "../assets/bootstrap.png";
-import nodejs  from  "../assets/node.png";
 import express  from  "../assets/express.png";
+import react  from  "../assets/science.png";
+import nodejs  from  "../assets/node.png";
+import bootstrap  from  "../assets/bootstrap.png";
+import github  from  "../assets/github.png";
 
 const Experience = () => {
   const techs=[
@@ -15,7 +15,7 @@ const Experience = () => {
     {id:2,src:css,title:"CSS",style:"shadow-blue-500"},
     {id:3,src:js,title:"JavaScript",style:"shadow-yellow-500"},
     {id:4,src:mongo,title:"MongoDB (M)",style:"shadow-green-500"},
-    {id:5,src:express,title:"ExpressJS (E)",style:"shadow-green-500"},
+    {id:5,src:express,title:"ExpressJS (E)",style:"shadow-gray-500"},
     {id:6,src:react,title:"ReactJS (R)",style:"shadow-blue-600"},
     {id:7,src:nodejs,title:"NodeJS (N)",style:"shadow-green-500"},
     {id:8,src:bootstrap,title:"Bootstrap",style:"shadow-purple-500"},
