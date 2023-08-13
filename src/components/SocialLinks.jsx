@@ -37,7 +37,7 @@ const SocialLinks = () => {
              Resume <BsFillPersonLinesFill size={30}/>
             </>
         ),
-        href: "https://drive.google.com/file/d/1lJWpi_EIXq768bRBy-8kFRCcbUwiTCfc/view?usp=drive_link",
+        href: "https://drive.google.com/file/d/19dHwGQBpAyWc4Ia9YoRwJiqZJl_pAgkd/view?usp=sharing",
         style: 'rounded-tr-md',
         download: true
     }
@@ -45,7 +45,7 @@ const SocialLinks = () => {
   return (
     <div className='hidden lg:flex flex-col top-[35%] left-0 fixed'> 
         <ul>
-            {links.map(({id,child,href,style, download})=>(
+            {links.map(({id,child,href,download})=>(
                 <li key={id} className=' flex  justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500'>
                 <a href={href} className='flex justify-between items-center w-full text-white' download={download} target='_blank' rel="noreferrer" >
                {child}

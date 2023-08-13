@@ -11,22 +11,23 @@ const NavBar = () => {
         {id: 3,href:"/education" ,link:"education"},
         {id: 4,href:"/portfolio" ,link:"portfolio"},
         {id: 5,href:"/experience" ,link:"experience"},
-        {id: 6,href:"/contact" ,link:"contact"}
+        {id: 6,href:"/achievements" ,link:"achievements"},
+        {id: 7,href:"/contact" ,link:"contact"}
 
     ]
   return (
     <div id='nab' className="flex justify-between items-center w-full h-20 px-4 text-white bg-black bg-fixed ">
         <div>
             <h1 className='text-5xl font-signature ml-2'>
-                Er. Dhananjay 
+                Dhananjay 🧑‍💻
             </h1>
         </div>
         
-        <ul className="hidden md:flex ">
+        <ul className="hidden lg:flex ">
             {links.map(({id, link, href})=>(
               <li key={id} className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-110 duration-200'><Link to={href}> {link} </Link></li>
         ))} </ul>
-        <div onClick= {()=>setNav(!nav) }  className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
+        <div onClick= {()=>setNav(!nav) }  className='cursor-pointer pr-4 z-10 text-gray-500 lg:hidden'>
 
            { nav?<FaTimes className='hover:scale-110 duration-200'  size={30}/>:<FaBars className='hover:scale-110 duration-200' size={30}/>}
               
