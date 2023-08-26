@@ -7,17 +7,19 @@ import tictactoe from "../assets/Tic-tac.png"
 import newsapp from "../assets/News.png"
 import qrgen from "../assets/QR.png"
 import vibehub from "../assets/vibehub.png"
+import pulse from "../assets/pulseguardian.png"
 
 const Portfolio = () => {
     const portfolios = [
         {id:1,demolink:"https://vibe-hub-frontend.vercel.app/",codelink:"https://github.com/dhananjay929/VibeHub_Frontend" ,src: vibehub},
-        {id:2,demolink:"https://text-analyzer-app.vercel.app/",codelink:"https://github.com/dhananjay929/Text_Analyzer_App" ,src: textanalyzer },
-        {id:3,demolink:"https://movie-reviewer-eight.vercel.app/",codelink:"https://github.com/dhananjay929/Movie_Reviewer" ,src: moviereviewer},
-        {id:4,demolink:"https://tic-tac-toe-game-green-nu.vercel.app/",codelink:"https://github.com/dhananjay929/TicTacToeGame" ,src: tictactoe},
-        {id:5,demolink:"https://github.com/dhananjay929/NewsMonkey_App",codelink:"https://github.com/dhananjay929/NewsMonkey_App" ,src: newsapp},
-        {id:6,demolink:"https://dhananjay929.github.io/Calculator/",codelink:"https://github.com/dhananjay929/Calculator" ,src: calculator},
-        {id:7,demolink:"https://dhananjay929.github.io/E-Commerce/",codelink:"https://github.com/dhananjay929/E-Commerce" ,src: ecommerce},
-        {id:8,demolink:"https://qr-code-generator-five-delta.vercel.app/",codelink:"https://github.com/dhananjay929/QR_Code_Generator" ,src: qrgen}
+        {id:2,demolink:"https://pulse-guardian-frontend.vercel.app/",codelink:"https://github.com/dhananjay929/Pulse_Guardian" ,src: pulse},
+        {id:3,demolink:"https://text-analyzer-app.vercel.app/",codelink:"https://github.com/dhananjay929/Text_Analyzer_App" ,src: textanalyzer },
+        {id:4,demolink:"https://movie-reviewer-eight.vercel.app/",codelink:"https://github.com/dhananjay929/Movie_Reviewer" ,src: moviereviewer},
+        {id:5,demolink:"https://tic-tac-toe-game-green-nu.vercel.app/",codelink:"https://github.com/dhananjay929/TicTacToeGame" ,src: tictactoe},
+        {id:6,demolink:"https://github.com/dhananjay929/NewsMonkey_App",codelink:"https://github.com/dhananjay929/NewsMonkey_App" ,src: newsapp},
+        {id:7,demolink:"https://dhananjay929.github.io/Calculator/",codelink:"https://github.com/dhananjay929/Calculator" ,src: calculator},
+        {id:8,demolink:"https://dhananjay929.github.io/E-Commerce/",codelink:"https://github.com/dhananjay929/E-Commerce" ,src: ecommerce},
+        {id:9,demolink:"https://qr-code-generator-five-delta.vercel.app/",codelink:"https://github.com/dhananjay929/QR_Code_Generator" ,src: qrgen}
     ]
   return (
     <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white lg,md:h-screen'>
