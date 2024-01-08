@@ -13,6 +13,10 @@ const Achievements = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
+          ~ I got the chance to work as an Software-Engineer trainee with Blue Copper Technologies, Kolkata where I worked on technologies like Php, Laravel. As well as I also worked on the low code, no code platform like Outsystems. The internship was a great experience which taught me many skills including testing, business testing, debugging and a lot more.
+        </p><br />
+
+        <p className="text-xl">
           ~ I believe that one of my biggest achievement of life was when I won the Mr. GGSESTC award (2022) while competing against 50 other participants in my college. This award is the greatest award of my college.
         </p><br />
 

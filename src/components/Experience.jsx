@@ -8,6 +8,9 @@ import react  from  "../assets/science.png";
 import nodejs  from  "../assets/node.png";
 import bootstrap  from  "../assets/bootstrap.png";
 import github  from  "../assets/github.png";
+import outsystem  from  "../assets/outsystemss.png";
+import php  from  "../assets/php (2).png";
+import laravel  from  "../assets/laravel.png";
 
 const Experience = () => {
   const techs=[
@@ -19,7 +22,10 @@ const Experience = () => {
     {id:6,src:react,title:"ReactJS (R)",style:"shadow-blue-600"},
     {id:7,src:nodejs,title:"NodeJS (N)",style:"shadow-green-500"},
     {id:8,src:bootstrap,title:"Bootstrap",style:"shadow-purple-500"},
-    {id:9,src:github,title:"GitHub",style:"shadow-gray-400"}
+    {id:9,src:github,title:"GitHub",style:"shadow-gray-400"},
+    {id:10,src:php,title:"PHP",style:"shadow-blue-400"},
+    {id:11,src:laravel,title:"Laravel",style:"shadow-orange-400"},
+    {id:12,src:outsystem,title:"Outsystems",style:"shadow-red-500"}
   ]
   return (
     <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full min-h-screen'>
